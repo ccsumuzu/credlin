@@ -1,5 +1,7 @@
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/css?family=Montaga);
+
 
 /*
 	Hyperspace by Pixelarity
@@ -1701,14 +1703,23 @@
 
 	h1 {
 		color: #ffffff;
-		font-weight: bold;
 		line-height: 1.5;
-		margin: 0 0 0em 0;
+		margin: 0 0 0.15em 0;
 		letter-spacing: 3px;
-		font-variant: small-caps;
+		font-weight: bold;
+		font-family: "Montaga", 'Noto Sans TC', sans-serif;
 	}
 
-	h2, h3 {
+	h2 {
+		color: #ffffff;
+		font-weight: bold;
+		line-height: 1.5;
+		margin: 0 0 0.5em 0;
+		letter-spacing: 1.5px;
+		font-family: "Montaga", 'Noto Sans TC', sans-serif;
+	}
+
+	h3 {
 		color: #ffffff;
 		font-weight: bold;
 		line-height: 1.5;
