@@ -1,6 +1,6 @@
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
-@import url(https://fonts.googleapis.com/css?family=Montaga);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
 
 /*
@@ -1647,7 +1647,7 @@
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.7);
-		font-family: Arial, 'Noto Sans TC', sans-serif;
+		font-family: 'Noto Sans', 'Noto Sans TC', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -1705,9 +1705,9 @@
 		color: #ffffff;
 		line-height: 1.5;
 		margin: 0 0 0.15em 0;
-		letter-spacing: 3px;
+		letter-spacing: 2.5px;
 		font-weight: bold;
-		font-family: "Montaga", 'Noto Sans TC', sans-serif;
+		font-family: "Noto Sans", 'Noto Sans TC', sans-serif;
 	}
 
 	h2 {
@@ -1716,7 +1716,7 @@
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
 		letter-spacing: 1.5px;
-		font-family: "Montaga", 'Noto Sans TC', sans-serif;
+		font-family: "Noto Sans", 'Noto Sans TC', sans-serif;
 	}
 
 	h3 {
@@ -1740,7 +1740,7 @@
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.5em;
 	}
 
 		h1.major {
@@ -2868,12 +2868,8 @@
 
 			ul.contact > li {
 				padding: 0;
-				margin: 1.5em 0 0 0;
+				margin: 0 0 1.5em 0;
 			}
-
-/*				ul.contact > li:first-child {
-					margin-top: 0;
-				}*/
 
 		@media  screen and (max-width: 980px) {
 			ul.contact {
@@ -2883,9 +2879,10 @@
 
 			ul.contact li {
 				display: inline-block;
-				padding: 0 3vw 0 3vw;
+				padding: 1em 3vw 0 3vw;
 				vertical-align: top;
 			}
+
 		}
 
 		ul.menu {
@@ -3052,7 +3049,7 @@
 		@media screen and (max-width: 736px) {
 
 			.split > * {
-				margin: 3em 0 0 0;
+				margin: 2em 0 0 0;
 				padding: 3em 0 0 0;
 			}
 
@@ -3666,13 +3663,6 @@
 		width: 25vw;
 		}
 
-/*		#sidebar .language {
-			position: relative;
-			bottom: 6vh;
-			font-size: 0.8em;
-			opacity: 0.8;
-		}*/
-
 		#sidebar > .inner {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3867,7 +3857,6 @@
 					-ms-transition-delay: 4.25s;
 					transition-delay: 4.25s;
 				}
-
 
 		#sidebar a {
 			border-bottom-width: 0;
@@ -4091,6 +4080,13 @@
 			display: none;
 	}
 
+	.home .fb span {
+		position: fixed;
+		left: 55px;
+		bottom: 5px;
+		z-index: 100;
+	}
+
 		@media screen and (max-width: 736px) {
 
 			.home > ul {
@@ -4109,6 +4105,10 @@
 
 			.home a {
 				border-bottom-width: 0;
+			}
+
+			.home .fb span {
+				left: 20px;
 			}
 		}
 
