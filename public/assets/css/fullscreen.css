@@ -1,0 +1,68 @@
+/* Flickity fullscreen v1.0.1
+------------------------- */
+
+.flickity-enabled.is-fullscreen {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 0%, 0.9);
+  padding-bottom: 35px;
+  z-index: 2;
+}
+
+.flickity-enabled.is-fullscreen .flickity-page-dots {
+  bottom: 10px;
+}
+
+.flickity-enabled.is-fullscreen .flickity-page-dots .dot {
+  background: white;
+}
+
+/* prevent page scrolling when flickity is fullscreen */
+html.is-flickity-fullscreen {
+  overflow: hidden;
+}
+
+/* ---- flickity-fullscreen-button ---- */
+
+.flickity-fullscreen-button {
+  display: block;
+  right: 15px;
+  top: 15px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+  @media screen and ( max-width: 1280px ) {
+			.flickity-fullscreen-button { display: none; }
+		}
+
+/* right-to-left */
+.flickity-rtl .flickity-fullscreen-button {
+  right: auto;
+  left: 10px;
+}
+
+.flickity-fullscreen-button-exit { display: none; }
+
+.flickity-enabled.is-fullscreen .flickity-fullscreen-button-exit { display: block; right: 60px;}
+.flickity-enabled.is-fullscreen .flickity-fullscreen-button-view { display: none; }
+
+.flickity-fullscreen-button .flickity-button-icon {
+  position: relative;
+  top: -22px;
+  width: 24px;
+  height: 24px;
+  line-height: 0;
+}
+
+  @media screen and ( max-width: 1680px ) {
+			.flickity-fullscreen-button .flickity-button-icon {
+        top: -10px;
+      }
+		}

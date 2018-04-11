@@ -22,6 +22,8 @@
 
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/flickity.css" media="screen" />
+		<link rel="stylesheet" href="assets/css/fullscreen.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -33,9 +35,9 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">HOME</a></li>
-							<li><a href="#one">ABOUT</a></li>
-							<li><a href="#two">PRODUCTS</a></li>
-							<li><a href="#three">CONTACT</a></li>
+							<li><a href="#about">ABOUT</a></li>
+							<li><a href="#products">PRODUCTS</a></li>
+							<li><a href="#contact">CONTACT</a></li>
 							<li><a href="index.html">- 繁體中文</a></li>
 						</ul>
 					</nav>
@@ -47,12 +49,12 @@
 				
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="home">
+						<div class="mobile-nav">
 							<ul>
 								<li><a href="#"><span class="icon fa-undo fa-fw fa-lg"></span></a></li>
-								<li><a href="#one"><span class="icon fa-briefcase fa-fw fa-lg"></span></a></li>
-								<li><a href="#two"><span class="icon fa-list-ul fa-fw fa-lg"></span></a></li>
-								<li><a href="#three"><span class="icon fa-phone fa-fw fa-lg"></span></a></li>
+								<li><a href="#about"><span class="icon fa-briefcase fa-fw fa-lg"></span></a></li>
+								<li><a href="#products"><span class="icon fa-list-ul fa-fw fa-lg"></span></a></li>
+								<li><a href="#contact"><span class="icon fa-phone fa-fw fa-lg"></span></a></li>
 								<li><a href="index.html"><span class="icon fa-language fa-fw fa-lg"></span></a></li>
 							</ul>
 							<div class="fb"><a href="https://www.facebook.com/CredlinTW/" target="_blank"><span class="icon fa-facebook-official fa-2x"></span></a></div>
@@ -62,20 +64,22 @@
 							<h1>Credlin Co., Ltd.</h1><h2>科林實業股份有限公司</h2>
 							<h4 style="opacity: 0.7; letter-spacing: 1px;">R&D and Manufacturer of Specialty Water-based Synthetic Thickeners and Acrylic Latexes</h4>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">LEARN MORE</a></li>
+								<li><a href="#about" class="button scrolly">LEARN MORE</a></li>
 							</ul>
-							<div class="circleimg">
-								<img src="images/circle4.png">
-								<img src="images/circle3.png">
-								<img src="images/circle2.png">
-								<img src="images/circle1.png">
-							</div>
-
+						</div>
+						<div class="carousel">
+							<div class="carousel-cell"><img src="images/thumb01.jpg"></div>
+							<div class="carousel-cell"><div class="text">Professional R&D</div><div class="overlay"></div><img src="images/thumb05.jpg"></div>
+							<div class="carousel-cell"><img src="images/thumb02.jpg"></div>
+							<div class="carousel-cell"><div class="text">Quality Products</div><div class="overlay"></div><img src="images/thumb06.jpg"></div>
+							<div class="carousel-cell"><img src="images/thumb03.jpg"></div>
+							<div class="carousel-cell"><div class="text">Credibility</div><div class="overlay"></div><img src="images/thumb07.jpg"></div>
+							<div class="carousel-cell"><img src="images/thumb04.jpg"></div>
 						</div>
 					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2">
+				<!-- About -->
+					<section id="about" class="wrapper style2">
 						<div class="inner">
 							<ul class="tabs">
 								<li>
@@ -84,16 +88,28 @@
 										<div class="content">
 											<p style="text-align: left">Credlin Co., Ltd was established in 1994 to develop and manufacture specialty water-based polymers. The pilot plant was set up in 1996 in Youth Industrial Park in Taichung, Taiwan to start the small scale production of pigment printing thickeners.  The main building was completed in 2000 for large scale productions with the capacity of 500 metric tons per month.</p>
 										</div>
-										<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+										<div class="carousel2">
+											<div class="carousel-cell2"><img src="images/about01.jpg"></div>
+											<div class="carousel-cell2"><img src="images/about02.jpg"></div>
+											<div class="carousel-cell2"><img src="images/about03.jpg"></div>
+											<div class="carousel-cell2"><img src="images/about04.jpg"></div>
+										</div>
 									</div>
 								</li>
 								<li>
 									<h3>Our Approach</h3>
 									<div class="splitt style1">
 										<div class="content">
-											<p style="text-align: left">The factory is fully equipped with environment friendly devices with stringent air and waste pollution control. Supported by extensive research and development capabilities, we offer a wide range of synthetic thickeners especially for textile pigment printing industry and cosmetic applications, also many acrylic latexes for different applications such as construction waterproof materials, coatings and adhesives.  </p>
+											<p style="text-align: left">The factory is fully equipped with environment friendly devices with stringent air and waste pollution control. Supported by extensive research and development capabilities, we offer a wide range of synthetic thickeners especially for textile pigment printing industry and cosmetic applications, also many acrylic latexes for different applications such as construction waterproof materials, coatings and adhesives.</p>
 										</div>
-										<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+										<div class="carousel3">
+											<div class="carousel-cell3"><img src="images/equip01.jpg"></div>
+											<div class="carousel-cell3"><img src="images/equip02.jpg"></div>
+											<div class="carousel-cell3"><img src="images/equip03.jpg"></div>
+											<div class="carousel-cell3"><img src="images/equip04.jpg"></div>
+											<div class="carousel-cell3"><img src="images/equip05.jpg"></div>
+											<div class="carousel-cell3"><img src="images/equip06.jpg"></div>
+										</div>
 									</div>
 								</li>
 								<li>
@@ -105,36 +121,29 @@
 												<li><a href="#two" class="button scrolly">See Products</a></li>
 											</ul>
 										</div>
-										<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+										<div class="image"><img src="images/biz01.jpg" alt="" /></div>
 									</div>
 								</li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+				<!-- Product Information -->
+					<section id="products" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>Product Information</h2>
 							
 							<div class="table-wrapper">
 								<table class="alt">
-<!-- 								<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead> -->
-									<tbody>
+									<tbody class="transparent">
 										<tr>
 											<td rowspan="4" style="padding: 0"><h4>Synthetic Thickeners</h4></td>
 											<td>
 												<h4>Synthetic Acrylic Copolymers</h4><p>Synthetic acrylic copolymers dispersed in paraffin solvents. Applications include all water based polymer products, especially for textile pigment printing industries.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBbVpXT01scktXSmc/view" class="button medium"  data-poptrox="iframe,1280x600">AT-90</a></li>
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBaF95VFRRRlFBRDg/view" class="button medium"  data-poptrox="iframe,1280x600">AT-73</a></li>
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBcUlNaUpub2NLWW8/view" class="button medium"  data-poptrox="iframe,1280x600">AT-76</a></li>
+													<li><a href="products/AT-73.html#en" class="button medium">AT-73</a></li>
+													<li><a href="products/AT-76.html#en" class="button medium">AT-76</a></li>
+													<li><a href="products/AT-90.html#en" class="button medium">AT-90</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -143,9 +152,9 @@
 											<td>
 												<h4>Alkali Soluble Acrylic Copolymers</h4><p>They thicken instantly when neutralized to a pH between 8.0 and 9.0 with different thickening efficiency and rheology. Applications include all water based polymer products.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBYy11cU50ZGJMa2c/view" class="button medium"  data-poptrox="iframe,1280x600">AET-709</a></li>
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBLWoxY2hXLTF0NGs/view" class="button medium"  data-poptrox="iframe,1280x600" >AET-719</a></li>
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBMzl3VXE5eGNjbGs/view" class="button medium"  data-poptrox="iframe,1280x600">AET-729</a></li>
+													<li><a href="products/AET-709.html#en" class="button medium">AET-709</a></li>
+													<li><a href="products/AET-719.html#en" class="button medium" >AET-719</a></li>
+													<li><a href="products/AET-729.html#en" class="button medium">AET-729</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -153,8 +162,8 @@
 											<td>
 												<h4>pH 2.0-12.0 Synthetic Acrylic Copolymers</h4><p>Synthetic thickener with thickening power between pH of 2.0 and 12.0. Applications include all water based polymer products and polar organic solvents, especially for acidic products and the preparation of aqueous gel for cosmetics.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBV1NxTndDRXZCVHM/view" class="button medium"  data-poptrox="iframe,1280x600">DP-225</a></li>
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBTXNDbFhsano0LWM/view" class="button medium"  data-poptrox="iframe,1280x600">DP-325</a></li>
+													<li><a href="products/DP-225.html#en" class="button medium">DP-225</a></li>
+													<li><a href="products/DP-325.html#en" class="button medium">DP-325</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -162,7 +171,7 @@
 											<td>
 												<h4>Cosmetic Grade Synthetic Acrylic Copolymers</h4><p>DP-325 is a thickener and emulsifier which can emulsify oils in water and produce thick and stable emulsions for cosmetic applications with creamy and glide-on feel to meet the needs of most demanding formulations at low use level.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBTXNDbFhsano0LWM/view" class="button medium"  data-poptrox="iframe,1280x600">DP-325</a></li>
+													<li><a href="products/DP-325.html#en" class="button medium">DP-325</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -171,7 +180,7 @@
 											<td>
 												<h4>Acrylic Primer</h4><p>It can penetrate into the substrates to form a strong network, provide high level of water resistance, and improve the adhesion between old and new concretes.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBWllVZWdiRnB2MDA/view" class="button medium"  data-poptrox="iframe,1280x600">AP-300</a></li>
+													<li><a href="products/AP-300.html#en" class="button medium">AP-300</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -179,8 +188,8 @@
 											<td>
 												<h4>Elastic Cement Latex</h4><p>They are used in the manufacture of flexible, waterproof two-component adhesive mortars and of flexible insulating coatings containing cement.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBU1Z2TllrX0puaFU/view" class="button medium"  data-poptrox="iframe,1280x600">CE-880</a></li>
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBejRxa3NBUVpLV0U/view" class="button medium"  data-poptrox="iframe,1280x600">CE-881</a></li>
+													<li><a href="products/CE-880.html#en" class="button medium">CE-880</a></li>
+													<li><a href="products/CE-881.html#en" class="button medium">CE-881</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -188,7 +197,7 @@
 											<td>
 												<h4>Acrylic Cement Reinforcement Emulsion</h4><p>It can improve adhesion, impact strength, flexural strength, thin section fragility and flow property.  It is suitable for use in new construction as well as restoration of old constructions. </p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBMW1rbWxqRERGX2s/view" class="button medium"  data-poptrox="iframe,1280x600">CA-661</a></li>
+													<li><a href="products/CA-661.html#en" class="button medium">CA-661</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -197,17 +206,17 @@
 											<td>
 												<h4>Wood Coating</h4><p>It provides good flexibility with low tack for outdoor applications.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBekhEVW85TFRTR1U/view" class="button medium"  data-poptrox="iframe,1280x600">DH-101</a></li>
+													<li><a href="products/DH-101.html#en" class="button medium">DH-101</a></li>
 												</ul>
 											</td>
 										</tr>
 										<tr>
 											<td>
-												<h4>Waterproofing coatings</h4><p>It can be formulated as a one pot waterproofing coating product with excellent overall performance.</p>
+												<h4>Waterproofing Coatings</h4><p>It can be formulated as a one pot waterproofing coating product with excellent overall performance.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBRHFjVnJQY1F3em8/view" class="button medium"  data-poptrox="iframe,1280x600">M-272</a></li>
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBYTFmakF1MGQzUnc/view" class="button medium"  data-poptrox="iframe,1280x600">M-349</a></li>
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBMnZ6ZWpoei1XRGM/view" class="button medium"  data-poptrox="iframe,1280x600">TA-140</a></li>
+													<li><a href="products/M-272.html#en" class="button medium">M-272</a></li>
+													<li><a href="products/M-349.html#en" class="button medium">M-349</a></li>
+													<li><a href="products/TA-140.html#en" class="button medium">TA-140</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -216,7 +225,7 @@
 											<td>
 												<h4>Laminate Adhesive</h4><p>Lamination Adhesive LA-220 a water-based acrylic-styrene copolymer which is designed as an adhesive for the lamination of BOPP and PET film on printed paper or cardboard.</p>
 												<ul class="actions small">
-													<li><a href="https://drive.google.com/file/d/0B1CCEGyZAtGBM1ZYYWlLNzN4QlE/view" class="button medium"  data-poptrox="iframe,1280x600">LA-220</a></li>
+													<li><a href="products/LA-220.html#en" class="button medium">LA-220</a></li>
 												</ul>
 											</td>
 										</tr>
@@ -226,8 +235,8 @@
 						</div>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+				<!-- Contact -->
+					<section id="contact" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Contact Us</h2>
 							<p>If you have any questions about our products or services, please kindly use the form below to submit your inquiries.<br>
@@ -288,7 +297,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul id="disclaimer" class="menu">
-						<li>&copy; 2017 Credlin Co., Ltd. All rights reserved.</li><a href="disclaimer_en.html">&nbsp;Disclaimer&nbsp;<span class="icon fa-external-link"></span></a>
+						<li>&copy; 2017 Credlin Co., Ltd. All rights reserved.</li><a href="disclaimer.html#en">&nbsp;Disclaimer&nbsp;<span class="icon fa-external-link"></span></a>
 					</ul>
 				</div>
 			</footer>
@@ -301,12 +310,35 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/jquery.selectorr.min.js"></script>
+			<script src="assets/js/flickity.pkgd.js"></script>
+			<script src="assets/js/fullscreen.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
 			<script>
+				// poptrox initialization
 				var foo = $('#map');
 				foo.poptrox();
+
+				var $carousel3 = $('.carousel3').flickity({
+					fullscreen: true,
+					cellAlign: 'left',
+					contain: true,
+					lazyLoad: 2,
+					wrapAround: true,
+					fullscreen: true
+				});
+
+				$('.2ndtab').click(function () {
+					$carousel3.flickity('resize');
+				});
+
+				// resolve anchor wrong position issue on firefox
+				$(document).ready(function () {
+					if (window.location.hash.length > 0) {
+						window.scrollTo(0, $(window.location.hash).offset().top);
+					}
+				});
 			</script>
 			
 	</body>

@@ -206,6 +206,31 @@
 				delay: 250
 			});
 
+		// Carousel
+		$('.carousel').flickity({
+			// options
+			cellAlign: 'left',
+			contain: true,
+			lazyLoad: 2,
+			wrapAround: true,
+			autoPlay: 3000,
+			pageDots: false,
+			selectedAttraction: 0.02,
+			friction: 0.2
+		});
+
+
+		$('.carousel2').flickity({
+			// options
+			cellAlign: 'left',
+			contain: true,
+			lazyLoad: 2,
+			wrapAround: true,
+			fullscreen: true
+		});
+
+		// determine which language to show
+
 	});
 
 })(jQuery);
