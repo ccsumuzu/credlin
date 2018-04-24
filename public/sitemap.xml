@@ -6,29 +6,112 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://credlin.com.tw/</loc>
-  <lastmod>2017-08-17T18:12:09+00:00</lastmod>
-  <changefreq>yearly</changefreq>
+  <lastmod>2018-04-11T21:34:55+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://credlin.com.tw/en.html</loc>
-  <lastmod>2017-08-17T18:12:09+00:00</lastmod>
-  <changefreq>yearly</changefreq>
+  <loc>https://credlin.com.tw/en-US.html</loc>
+  <lastmod>2018-04-11T21:34:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/AT-73.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/AT-76.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/AT-90.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/AET-709.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/AET-719.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/AET-729.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/DP-225.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/DP-325.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/AP-300.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/CE-880.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/CE-881.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/CA-661.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/DH-101.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/M-272.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/M-349.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/TA-140.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://credlin.com.tw/products/LA-220.html</loc>
+  <lastmod>2018-04-11T21:34:57+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://credlin.com.tw/disclaimer.html</loc>
-  <lastmod>2017-08-17T18:12:09+00:00</lastmod>
-  <changefreq>yearly</changefreq>
-</url>
-<url>
-  <loc>https://credlin.com.tw/disclaimer_en.html</loc>
-  <lastmod>2017-08-17T18:12:09+00:00</lastmod>
-  <changefreq>yearly</changefreq>
+  <lastmod>2018-04-11T21:34:55+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://credlin.com.tw/index.html</loc>
-  <lastmod>2017-08-17T18:12:09+00:00</lastmod>
-  <changefreq>yearly</changefreq>
+  <lastmod>2018-04-11T21:34:55+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>

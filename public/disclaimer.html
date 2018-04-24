@@ -19,8 +19,8 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" id="title-cht" class="languageShow title ">科林實業 Credlin Co. Ltd.</a>
-				<a href="en.html" id="title-en" class="languageShow title">Credlin Co. Ltd.</a>
+				<a href="index.html" id="title-zh-TW" class="languageShow title ">科林實業 Credlin Co. Ltd.</a>
+				<a href="en-US.html" id="title-en-US" class="languageShow title">Credlin Co. Ltd.</a>
 			</header>
 
 		<!-- Wrapper -->
@@ -31,7 +31,7 @@
 						<div class="inner">
 
 							<!-- Text -->
-							<section id="disclaimer-cht" class="languageShow">
+							<section id="disclaimer-zh-TW" class="languageShow">
 								<h1 class="major">網站聲明</h1>
 								<h3>一、網站之內容與商標</h3>
 								<p>本科林實業股份有限公司（以下簡稱科林）網站內容受著作權保護。網站內容安排之所有權，屬科林或其授權人所有。使用者不得以任何形式目的重製、改作或以其他侵害著作權之方式使用本網站內容。</p>
@@ -54,7 +54,7 @@
 								<br><br>
 							</section>
 							
-							<section id="disclaimer-en" class="languageShow">
+							<section id="disclaimer-en-US" class="languageShow">
 								<h1 class="major">Website Disclaimer</h1>
 								<h3>1. CONTENTS AND TRADEMARK IN THE WEBSITE</h3>
 								<p>All content on the website, including text, graphics, logos, and the selection and arrangement thereof, is the exclusive
@@ -106,14 +106,14 @@
 				var lang = $(location).attr('hash');
 
 				$(function () {
-					if (lang == '#cht') {
-						$('#title-cht, #disclaimer-cht').show();
-						document.title = '科林實業｜產品資訊｜' + productname;
+					if (lang == '#zh-TW') {
+						$('#title-zh-TW, #disclaimer-zh-TW').show();
+						document.title = '科林實業｜網站聲明';
 
 					}
-					else if (lang == '#en') {
-						$('#title-en, #disclaimer-en').show();
-						document.title = 'Credlin Co. Ltd｜Product Information｜' + productname;
+					else if (lang == '#en-US') {
+						$('#title-en-US, #disclaimer-en-US').show();
+						document.title = 'Credlin Co. Ltd｜Website Disclaimer';
 					}
 					else {$('#languageShow').show()}
 

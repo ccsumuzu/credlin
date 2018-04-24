@@ -3533,7 +3533,9 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 1em 2em;
+				display: block;
+				padding: 1em;
+				text-align: center;
 			}
 
 		}
@@ -3542,8 +3544,7 @@
 
 			#header {
 				display: block;
-				padding: 0 2em;
-				text-align: left;
+				padding: 0.5em 2em;
 			}
 
 				#header .title {
@@ -4109,6 +4110,7 @@
 			text-indent: 2em;
 			text-align: justify; 
 			letter-spacing: 0.5px;
+			font-size: 0.95em;
 		}
 
 		.tabs ul.actions {
@@ -4194,10 +4196,6 @@
 			.tabs {
 				height: 120vw;
 			}
-
-			.tabs img {
-				margin-top: -2.5em;
-			}
 		}
 
 
@@ -4205,7 +4203,7 @@
 		@media screen and (max-width: 736px) {
 
 			.tabs .panels {
-				padding: 2em 2em 0.1em 2em ;
+				padding: 2em;
 			}
 
 		}
@@ -4227,7 +4225,7 @@
 				}
 
 			.tabs .panels {
-				padding: 1em 1em 0 1em;
+				padding: 1em;
 			}
 		}
 
@@ -4354,7 +4352,7 @@
 				}
 
 					.splitt > *:first-child {
-						margin-top: 0 !important;
+						margin: 0 0 0.5em 0 !important;
 					}
 
 				.splitt.reversed {
@@ -4569,5 +4567,5 @@
 .dropotron.level-0:before { content: ''; position: absolute; border-bottom: solid 0.5em #4167a6; border-left: solid 0.5em transparent; border-right: solid 0.5em transparent; top: -0.4em; }
 .dropotron.level-1 { margin: 0 0.75em; width: 9.5em;}
 .dropotron.level-1:before { content: ''; position: absolute; border-bottom: solid 0.5em transparent; border-right: solid 0.5em #4167a6; border-top: solid 0.5em transparent; left: -0.4em; top: 1em; }
-.dropotron.level-2 { margin: 0 0.75em; }
+.dropotron.level-2 { margin: 0 0.75em;  width: 6.5em;}
 .dropotron.level-2:before { content: ''; position: absolute; border-bottom: solid 0.5em transparent; border-right: solid 0.5em #4167a6; border-top: solid 0.5em transparent; left: -0.4em; top: 1em; }
