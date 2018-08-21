@@ -4060,7 +4060,7 @@
 
 		@media screen and (max-width: 736px) {
 
-			.home > ul {
+			.mobile-nav > ul {
 				display: inline-block;
 				list-style: none;
 				position: fixed;
@@ -4069,16 +4069,16 @@
 				z-index: 1;
 			}
 
-			.home li {
+			.mobile-nav li {
 				display: inline-block;
 				margin-left: 3vw;
 			}
 
-			.home a {
+			.mobile-nav a {
 				border-bottom-width: 0;
 			}
 
-			.home .fb span {
+			.mobile-nav .fb span {
 				left: 20px;
 			}
 		}
